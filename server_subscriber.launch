@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="publisher_subscriber_server_client" name="server" type="server"/>
+    <node pkg="publisher_subscriber_server_client" name="subscriber" type="subscriber" output="screen"/>
+</launch>
